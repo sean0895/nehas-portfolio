@@ -22,6 +22,7 @@
     "test:int": "cross-env NODE_OPTIONS=--no-deprecation vitest run --config ./vitest.config.mts"
   },
   "dependencies": {
+    "@netlify/plugin-nextjs": "^5.15.9",
     "@number-flow/react": "^0.6.0",
     "@payloadcms/admin-bar": "3.82.1",
     "@payloadcms/db-sqlite": "3.82.1",
