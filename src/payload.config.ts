@@ -5,9 +5,14 @@ import { buildConfig, PayloadRequest } from 'payload'
 import { fileURLToPath } from 'url'
 
 import { Categories } from './collections/Categories'
+import { Competencies } from './collections/Competencies'
+import { Credentials } from './collections/Credentials'
 import { Media } from './collections/Media'
 import { Pages } from './collections/Pages'
 import { Posts } from './collections/Posts'
+import { SOPs } from './collections/SOPs'
+import { Stats } from './collections/Stats'
+import { Testimonials } from './collections/Testimonials'
 import { Users } from './collections/Users'
 import { Footer } from './Footer/config'
 import { Header } from './Header/config'
@@ -62,7 +67,7 @@ export default buildConfig({
       url: process.env.DATABASE_URL || '',
     },
   }),
-  collections: [Pages, Posts, Media, Categories, Users],
+  collections: [Pages, Posts, Media, Categories, Users, Competencies, SOPs, Credentials, Testimonials, Stats],
   cors: [getServerSideURL()].filter(Boolean),
   globals: [Header, Footer],
   plugins,

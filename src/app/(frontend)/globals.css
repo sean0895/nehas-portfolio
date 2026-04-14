@@ -44,7 +44,23 @@
   --breakpoint-xl: 80rem;
   --breakpoint-2xl: 86rem;
   --font-mono: var(--font-geist-mono);
-  --font-sans: var(--font-geist-sans);
+  --font-sans: var(--font-inter);
+  --font-display: var(--font-cal);
+
+  /* Subtle dark palette — zinc base, sky + emerald accents */
+  --color-background: #09090b;
+  --color-foreground: #e4e4e7;
+  --color-muted: #52525b;
+  --color-muted-light: #71717a;
+  --color-accent: #38bdf8;
+  --color-accent-muted: rgba(56,189,248,0.06);
+  --color-accent-secondary: #34d399;
+  --color-accent-secondary-muted: rgba(52,211,153,0.06);
+  --color-surface: #18181b;
+  --color-surface-warm: #1c1c1f;
+  --color-border: rgba(255,255,255,0.06);
+  --color-border-light: rgba(255,255,255,0.1);
+  --color-dark-section: #0a0f1a;
 }
 
 @layer utilities {
@@ -212,6 +228,16 @@
   body {
     @apply bg-background text-foreground min-h-[100vh] flex flex-col;
   }
+}
+
+@keyframes scroll {
+  to {
+    transform: translate(calc(-50% - 0.5rem));
+  }
+}
+
+@utility animate-scroll {
+  animation: scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite;
 }
 
 html {
