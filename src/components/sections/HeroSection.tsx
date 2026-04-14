@@ -7,7 +7,7 @@ import { motion } from 'motion/react'
 
 const defaultStats = [
   { value: '16+', label: 'Years Leading\nSupport Orgs' },
-  { value: '32%', label: 'CSAT YoY\nImprovement' },
+  { value: '95%', label: 'Maintaining\nCSAT' },
   { value: '$25M', label: 'Revenue from\nSupport Model' },
 ]
 
