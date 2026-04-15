@@ -114,14 +114,14 @@ export function SOPsSection({ sops: cmsSops }: SOPsProps) {
     : sopTimeline
   return (
     <section id="sops" className="max-w-[1440px] mx-auto">
-      <div className="px-20 pt-24 pb-8">
+      <div className="px-5 md:px-20 pt-24 pb-8">
         <div className="flex items-center gap-3 mb-4">
           <span className="w-10 h-[1.5px] bg-sky-400" />
           <span className="text-[11px] font-medium tracking-[0.25em] uppercase text-sky-400">
             SOPs & Workflows
           </span>
         </div>
-        <h2 className="font-[family-name:var(--font-cal)] text-[52px] font-light text-zinc-200 tracking-[-0.02em] leading-[1.1] mb-4">
+        <h2 className="font-[family-name:var(--font-cal)] text-[28px] md:text-[52px] font-light text-zinc-200 tracking-[-0.02em] leading-[1.1] mb-4">
           How I Operationalize Support
         </h2>
         <p className="text-base text-zinc-500 max-w-[640px] leading-[1.85] font-light">

@@ -7,24 +7,24 @@ const links = [
   {
     icon: <EnvelopeSimple weight="duotone" className="w-5 h-5" />,
     label: 'Email',
-    href: 'mailto:neha@example.com',
+    href: 'mailto:Neha6_verma96@yahoo.com',
   },
   {
     icon: <LinkedinLogo weight="duotone" className="w-5 h-5" />,
     label: 'LinkedIn',
-    href: 'https://linkedin.com/in/nehaverma',
+    href: 'https://www.linkedin.com/in/neha-verma-74467399/',
   },
   {
     icon: <FileText weight="duotone" className="w-5 h-5" />,
     label: 'Resume',
-    href: '#',
+    href: '/Neha-Verma-Resume.pdf',
   },
 ]
 
 export function FooterSection() {
   return (
     <footer className="border-t border-white/[0.06] bg-[#09090B]">
-      <div className="max-w-[1440px] mx-auto px-20 py-16">
+      <div className="max-w-[1440px] mx-auto px-5 md:px-20 py-16">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-end">
           {/* Left: Name + Role */}
           <motion.div
@@ -33,7 +33,7 @@ export function FooterSection() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            <h3 className="font-[family-name:var(--font-cal)] text-[36px] font-light text-zinc-200 tracking-[-0.02em] leading-[1.1] mb-2">
+            <h3 className="font-[family-name:var(--font-cal)] text-[24px] md:text-[36px] font-light text-zinc-200 tracking-[-0.02em] leading-[1.1] mb-2">
               Neha <span className="italic text-sky-400">Verma</span>
             </h3>
             <p className="text-sm text-zinc-500 mb-1">

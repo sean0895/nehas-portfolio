@@ -62,7 +62,7 @@ export function ThoughtLeadershipSection() {
             <span className="w-10 h-[1.5px] bg-sky-400" />
           </div>
 
-          <h2 className="font-[family-name:var(--font-cal)] text-[52px] font-light text-zinc-200 tracking-[-0.02em] leading-[1.1] mb-4">
+          <h2 className="font-[family-name:var(--font-cal)] text-[28px] md:text-[52px] font-light text-zinc-200 tracking-[-0.02em] leading-[1.1] mb-4">
             AI is changing customer support.
           </h2>
 
@@ -78,7 +78,7 @@ export function ThoughtLeadershipSection() {
       </LampContainer>
 
       {/* Lesson Cards — inside a section container */}
-      <div className="px-12 max-w-[1440px] mx-auto -mt-32 relative z-50 pb-12">
+      <div className="px-4 md:px-12 max-w-[1440px] mx-auto -mt-32 relative z-50 pb-12">
         <div className="bg-zinc-900/60 border border-white/[0.06] rounded-3xl p-8 backdrop-blur-sm">
           <h3 className="text-sm font-medium text-zinc-500 uppercase tracking-[0.15em] mb-6 px-1">
             What I believe about AI in support

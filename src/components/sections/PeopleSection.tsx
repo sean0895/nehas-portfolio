@@ -70,7 +70,7 @@ const initiatives = [
 
 export function PeopleSection() {
   return (
-    <section id="people" className="py-24 px-20 max-w-[1440px] mx-auto">
+    <section id="people" className="py-24 px-5 md:px-20 max-w-[1440px] mx-auto">
       {/* Header */}
       <div className="flex items-center gap-3 mb-4">
         <span className="w-10 h-[1.5px] bg-sky-400" />
@@ -78,7 +78,7 @@ export function PeopleSection() {
           People & Development
         </span>
       </div>
-      <h2 className="font-[family-name:var(--font-cal)] text-[52px] font-light text-zinc-200 tracking-[-0.02em] leading-[1.1] mb-4">
+      <h2 className="font-[family-name:var(--font-cal)] text-[28px] md:text-[52px] font-light text-zinc-200 tracking-[-0.02em] leading-[1.1] mb-4">
         Building the Team Behind the Metrics
       </h2>
       <p className="text-base text-zinc-500 max-w-[640px] leading-[1.85] font-light mb-8">

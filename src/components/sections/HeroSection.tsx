@@ -23,7 +23,7 @@ export function HeroSection({ stats: cmsStats }: HeroProps) {
     : defaultStats
   return (
     <AuroraBackground className="relative">
-      <div className="w-full max-w-[1440px] mx-auto px-20 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center min-h-screen pt-24">
+      <div className="w-full max-w-[1440px] mx-auto px-5 md:px-20 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center min-h-screen pt-24">
         {/* Left column */}
         <div className="relative z-10">
           <motion.div
@@ -42,7 +42,7 @@ export function HeroSection({ stats: cmsStats }: HeroProps) {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="font-[family-name:var(--font-cal)] text-[96px] font-light leading-[1.0] tracking-[-0.03em] mb-7 text-white"
+            className="font-[family-name:var(--font-cal)] text-[48px] md:text-[96px] font-light leading-[1.0] tracking-[-0.03em] mb-7 text-white"
           >
             Neha
             <br />
@@ -66,11 +66,11 @@ export function HeroSection({ stats: cmsStats }: HeroProps) {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.8 }}
-            className="flex gap-16 mt-12 mb-7"
+            className="flex gap-8 md:gap-16 mt-12 mb-7"
           >
             {stats.map((stat) => (
               <div key={stat.value}>
-                <div className="font-[family-name:var(--font-cal)] text-[52px] font-semibold text-sky-400 leading-none tracking-[-0.02em]">
+                <div className="font-[family-name:var(--font-cal)] text-[32px] md:text-[52px] font-semibold text-sky-400 leading-none tracking-[-0.02em]">
                   {stat.value}
                 </div>
                 <div className="text-[9px] font-medium text-zinc-500 uppercase tracking-[0.12em] mt-1.5 whitespace-pre-line">
@@ -106,11 +106,11 @@ export function HeroSection({ stats: cmsStats }: HeroProps) {
           className="relative flex items-center justify-center"
         >
           {/* Decorative rings */}
-          <div className="absolute w-[420px] h-[520px] border border-white/[0.04] rounded-[32px]" />
-          <div className="absolute w-[360px] h-[460px] border border-white/[0.03] rounded-[24px]" />
+          <div className="absolute w-[280px] h-[360px] md:w-[420px] md:h-[520px] border border-white/[0.04] rounded-[32px]" />
+          <div className="absolute w-[240px] h-[320px] md:w-[360px] md:h-[460px] border border-white/[0.03] rounded-[24px]" />
 
           {/* Photo card with actual portrait */}
-          <div className="w-[300px] h-[400px] rounded-3xl overflow-hidden border-[2.5px] border-white/10 shadow-[0_32px_80px_rgba(0,0,0,0.6)] relative z-10">
+          <div className="w-[200px] h-[280px] md:w-[300px] md:h-[400px] rounded-3xl overflow-hidden border-[2.5px] border-white/10 shadow-[0_32px_80px_rgba(0,0,0,0.6)] relative z-10">
             <img
               src="/images/portrait-0.jpeg"
               alt="Neha Verma"

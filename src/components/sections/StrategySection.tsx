@@ -96,7 +96,7 @@ const segmentationTiers = [
 export function StrategySection() {
   return (
     <section id="strategy" className="py-24">
-      <div className="px-20 max-w-[1440px] mx-auto mb-12">
+      <div className="px-5 md:px-20 max-w-[1440px] mx-auto mb-12">
         {/* Header */}
         <div className="flex items-center gap-3 mb-4">
           <span className="w-10 h-[1.5px] bg-sky-400" />
@@ -104,7 +104,7 @@ export function StrategySection() {
             Strategy & QBR
           </span>
         </div>
-        <h2 className="font-[family-name:var(--font-cal)] text-[52px] font-light text-zinc-200 tracking-[-0.02em] leading-[1.1] mb-4">
+        <h2 className="font-[family-name:var(--font-cal)] text-[28px] md:text-[52px] font-light text-zinc-200 tracking-[-0.02em] leading-[1.1] mb-4">
           Quarterly Business Review Framework
         </h2>
         <p className="text-base text-zinc-500 max-w-[640px] leading-[1.85] font-light">
@@ -114,12 +114,12 @@ export function StrategySection() {
       </div>
 
       {/* Sticky Scroll — QBR Framework */}
-      <div className="relative rounded-2xl overflow-hidden mx-8" style={{ backgroundColor: '#0a0f1a' }}>
+      <div className="relative rounded-2xl overflow-hidden mx-3 md:mx-8" style={{ backgroundColor: '#0a0f1a' }}>
         <StickyScroll content={qbrContent} contentClassName="rounded-xl" />
       </div>
 
       {/* Segmentation Tiers */}
-      <div className="px-20 max-w-[1440px] mx-auto mt-24">
+      <div className="px-5 md:px-20 max-w-[1440px] mx-auto mt-24">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -133,7 +133,7 @@ export function StrategySection() {
               Customer Segmentation
             </span>
           </div>
-          <h3 className="font-[family-name:var(--font-cal)] text-[36px] font-light text-zinc-200 tracking-[-0.02em] leading-[1.1]">
+          <h3 className="font-[family-name:var(--font-cal)] text-[24px] md:text-[36px] font-light text-zinc-200 tracking-[-0.02em] leading-[1.1]">
             Tiered Support Model
           </h3>
         </motion.div>

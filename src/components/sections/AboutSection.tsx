@@ -77,7 +77,7 @@ export function AboutSection({ competencies: cmsCompetencies }: AboutProps) {
       }))
     : competencies
   return (
-    <section id="about" className="py-24 px-20 max-w-[1440px] mx-auto">
+    <section id="about" className="py-24 px-5 md:px-20 max-w-[1440px] mx-auto">
       {/* Header */}
       <div className="flex items-center gap-3 mb-4">
         <span className="w-10 h-[1.5px] bg-sky-400" />
@@ -85,11 +85,11 @@ export function AboutSection({ competencies: cmsCompetencies }: AboutProps) {
           About
         </span>
       </div>
-      <h2 className="font-[family-name:var(--font-cal)] text-[52px] font-light text-zinc-200 tracking-[-0.02em] leading-[1.1] mb-12">
+      <h2 className="font-[family-name:var(--font-cal)] text-[28px] md:text-[52px] font-light text-zinc-200 tracking-[-0.02em] leading-[1.1] mb-12">
         The Leader Behind the Work
       </h2>
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-16">
         {/* Left: Quote + Bio */}
         <div>
           <div className="border-l-4 border-l-sky-400/40 pl-7 my-8">
