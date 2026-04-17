@@ -34,7 +34,7 @@ export function HeroSection({ stats: cmsStats }: HeroProps) {
           >
             <span className="w-10 h-[1.5px] bg-sky-400" />
             <span className="text-[11px] font-medium tracking-[0.25em] uppercase text-sky-400">
-              Senior Manager, Customer Support Operations
+              Senior Manager, Technical Customer Support Operations
             </span>
           </motion.div>
 

@@ -37,7 +37,7 @@ export function FooterSection() {
               Neha <span className="italic text-sky-400">Verma</span>
             </h3>
             <p className="text-sm text-zinc-500 mb-1">
-              Senior Manager, Customer Support Operations
+              Senior Manager, Technical Customer Support Operations
             </p>
             <p className="text-xs text-zinc-500">
               16+ years building support organizations that protect revenue, develop

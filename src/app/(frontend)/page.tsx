@@ -18,7 +18,7 @@ import { CredentialsSection } from '@/components/sections/CredentialsSection'
 import { FooterSection } from '@/components/sections/FooterSection'
 
 export const metadata: Metadata = {
-  title: 'Neha Verma | Senior Manager, Customer Support Operations',
+  title: 'Neha Verma | Senior Manager, Technical Customer Support Operations',
   description:
     '16+ years building support organizations that protect revenue, develop people, and turn customer data into strategy.',
 }
